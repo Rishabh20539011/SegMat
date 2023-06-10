@@ -1,9 +1,9 @@
 # SegMat
-Using Image Matting to improve the Segmentation results, which avoids the confusion between foreground and background in boundary pixels of each contour.
+Utilizing Image Matting for enhancing Segmentation results is a technique that addresses the confusion between foreground and background in boundary pixels of each contour.
 
-Sometimes we can not generate accurate results through our segmentation model because the probabbility of edge pixels is very low to classify under the object, This can be due to many reasons like Less number of data for model to learn well, inaccurate annotations by the user ,Unsharp images,Lack of contranst btween fg and bg etc.., So we should include one extra model which is specialized in performing this task for us which is Image Matting.     
+In certain cases, our segmentation model may not produce accurate outcomes due to the low probability of classifying edge pixels as part of the object. This can be attributed to various factors such as insufficient training data, imprecise user annotations, unsharp images, and insufficient contrast between foreground and background. To overcome this, incorporating an additional specialized model like Image Matting becomes essential.
 
-This Method proves to be very useful when talking abouth the consideration of edge pixels and can be used in variety of task where we need a clear distinction in between the fg and bg . Some of the AI in built cameras use this methodology to sapture sharp images.   
+Image Matting proves to be highly advantageous when dealing with edge pixels, and it can be employed in various tasks that require a clear differentiation between foreground and background. Some AI-integrated cameras employ this methodology to capture sharp images.
 
 The Working of this process is shown below in the image---
 
