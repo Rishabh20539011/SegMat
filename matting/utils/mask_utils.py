@@ -6,19 +6,6 @@ import numpy as np
 import cv2
 
 def composite(foreground,background,alpha_l,device="cpu"):
-    """
-    Composites foreground with background by following
-    https://pymatting.github.io/intro.html#alpha-matting math formula.
-
-    Args:
-        device: Processing device
-        foreground: Image that will be pasted to background image with following alpha mask.
-        background: Background image
-        alpha: Alpha Image
-
-    Returns:
-        Composited image as PIL.Image instance.
-    """
 
     foreground =  cv2.cvtColor(foreground, cv2.COLOR_RGB2RGBA)
 

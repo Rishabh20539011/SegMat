@@ -7,12 +7,12 @@ import numpy as np
 import torch
 from PIL import Image
 
-# from carvekit.ml.arch.fba_matting.models import FBA
+
 from matting.utils.transforms import (
     trimap_transform,
     groupnorm_normalise_image,
 )
-# from carvekit.ml.files.models_loc import fba_pretrained
+
 from matting.utils.image_utils import convert_image, load_image
 # from matting.utils.models_utils import get_precision_autocast, cast_network
 from matting.utils.pool_utils import batch_generator, thread_pool_processing
