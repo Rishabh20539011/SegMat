@@ -10,8 +10,8 @@ The Working of this process is shown below in the image---
 ![Screenshot from 2023-06-10 18-43-29](https://github.com/Rishabh20539011/SegMat/assets/101064926/d31a6f85-d123-4cec-9f25-da00281e029f)
 
 In this repo we are used the following  architecture
-1. [Unet++]{https://smp.readthedocs.io/en/latest/models.html#segmentation_models_pytorch.UnetPlusPlus} for Segmentation
-2. [FBA-MATT]{https://github.com/MarcoForte/FBA_Matting} for matting which gives us Real time performance.
+1. [Unet++](https://smp.readthedocs.io/en/latest/models.html#segmentation_models_pytorch.UnetPlusPlus) for Segmentation
+2. [FBA-MATT](https://github.com/MarcoForte/FBA_Matting) for matting which gives us Real time performance.
 
 1. Current SOTA for Segmentation through CNNs--- https://github.com/qubvel/segmentation_models.pytorch
 2. Current SOTA for Image Matting --- https://paperswithcode.com/sota/image-matting-on-composition-1k-1
